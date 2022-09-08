@@ -37,6 +37,8 @@ The National Museum in New Delhi is also known as **National Museum of India**.
 
 ***
 
+### Tables
+
 In this table I have mention some of the best places to which I have visit and spend my time with friends and family
 
 |City|Location|Time Spend|
@@ -49,6 +51,10 @@ In this table I have mention some of the best places to which I have visit and s
 
 ***
 
+> "*Some of us think holding on makes us strong; but sometimes it is letting go.*"   -- _Herman Hesse_
 
+> “*Life is a journey, not a destination.*”  -- _Ralph Waldo Emerson_
+
+***
 
 
