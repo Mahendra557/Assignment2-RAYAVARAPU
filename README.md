@@ -35,6 +35,20 @@ The National Museum in New Delhi is also known as **National Museum of India**.
 * [Mahendra Image](AboutMe.md)
 
 
+***
+
+In this table I have mention some of the best places to which I have visit and spend my time with friends and family
+
+|City|Location|Time Spend|
+|----|--------|----------|
+|Delhi|National Museum|2 hours|
+|Hyderabad|Golconda Fort|4 hours|
+|Visakhapatnam|Beach|1 hour|
+|Tirupati|Sri Venkateswara Temple|3 days|
+
+
+***
+
 
 
 
