@@ -57,4 +57,32 @@ In this table I have mention some of the best places to which I have visit and s
 
 ***
 
+```
+#allows a single uri through the .htaccess password protection
+SetEnvIf Request_URI "/testing_uri$" test_uri
+
+#allows everything if its on a certain host
+SetEnvIf HOST "^testing.yoursite.com" testing_url
+SetEnvIf HOST "^yoursite.com" live_url
+Order Deny,Allow
+
+AuthName "Restricted Area"
+AuthType Basic
+AuthUserFile /path/to/your/.htpasswd
+AuthGroupFile /
+Require valid-user
+
+#Allow valid-user
+Deny from all
+Allow from env=test_uri
+Allow from env=testing_url
+Allow from env=live_url
+Satisfy any
+```
+> HTTPS is not being redirected properly
+
+HTAccess issue link : <https://stackoverflow.com/questions/42056119/some-htaccess-questions>
+
+Link to the code : <https://css-tricks.com/snippets/htaccess/allow-single-url/>
+
 
